@@ -1,0 +1,13 @@
+<html>
+  <title> hello django</title>
+ <body> hello xxxxxxxxxxxxx
+ 	<h1><a href="#">新文章</a></h1>
+	 <!-- <h1>{{article.title}}</h1>
+	 <h2>{{article.content}}</h2> -->
+	 {% for article in articles%}
+	 	 <h1>{{article.title}}</h1>
+	 	<h2>{{article.content}}</h2>
+	 	<br/>
+	 {% endfor %}
+ </body>
+</html>
