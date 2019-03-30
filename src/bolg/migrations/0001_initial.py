@@ -6,7 +6,7 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     initial = True
-    # 122 Add Tag
+    # 122 Add Tag new branch
     dependencies = [
     ]
 
